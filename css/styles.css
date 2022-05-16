@@ -1,0 +1,159 @@
+body{
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+p {
+  font-size: 120%;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+hr {
+  border-style: none;
+  border-top-style:solid;
+  border-color: grey;
+  border-width: 2px;
+  width: 20%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+h2 {
+  color: #00FFBB;
+  font-size: 250%;
+}
+
+a{
+  color: #11999E;
+  font-family: 'Quicksand', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.top-container {
+  background-color: #212121;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dev {
+  color: #00FFBB;
+}
+
+.image {
+  flex-basis: 40%;
+  margin-top: 13%;
+  height: 720px;
+}
+
+.text {
+  font-size: 250%;
+  padding-right: 100px;
+}
+
+.middle-container {
+  background-color: #262626;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.about-me-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 200px;
+}
+
+.about-me-img {
+  height: 445%;
+}
+
+
+.about-me-text {
+  margin-right: 200px;
+}
+
+.portfolio-text {
+  margin-left: 20%;
+  margin-bottom: 10%;
+}
+
+.portfolio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-img {
+  padding-right: 70px;
+  height: 350px;
+  width: 350px;
+}
+
+.project-text {
+  margin-right: 10px;
+  margin-bottom: 80px;
+}
+
+.portfolio-second {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-second-img {
+  padding-right: 70px;
+  margin-left: 10px;
+  height: 350px;
+  width: 350px;
+}
+
+.project-second-text {
+  margin-right: 0;
+  margin-bottom: 80px;
+}
+
+.contact-me {
+  text-align: center;
+}
+
+.contact-text {
+  margin: 40px auto 60px;
+}
+
+.bottom-container{
+  background-color: #212121;
+  padding: 30px 0 20px;
+  text-align: center;
+}
+
+.contact-me-button {
+  margin-bottom: 150px;
+}
+
+.btn {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Arial;
+  color: #00FFBB;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #00FFBB 4px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #212121;
+  text-decoration: none;
+}
